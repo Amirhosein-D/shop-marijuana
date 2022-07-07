@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+body{ 
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%2303eaf9' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+transition: 2s;
+}
+
+
+header{
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 13px 15px;
+    border-radius: 15px;
+    flex-direction: row;
+    max-width: 100%;
+    transition: 2s;
+} 
+
+#mainMenuBars{
+    background: rgb(215, 211, 211);
+    border: 2px solid rgb(17, 208, 204);
+    border-radius: 15px;
+    position: absolute;
+    left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding-left: 10px;
+    width: 75px; 
+    height: 66PX;
+    transition: 2s;
+    display: grid;
+    overflow: hidden;
+}
+
+#menuBarsOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* style for js (1)*/
+ 
+#mainMenuBars.openMainMenuTow {
+    height: 96%;
+    transition: 2s;
+} 
+/* style for js (1)*/
+
+#mainMenuBars.openMainMenuOne{
+    width: 280px;
+    transition: 2s;
+}
+/* style for js (1)*/
+
+#mainMenuBars.closeMenuBars {
+    width: 75px; 
+    height: 66PX;
+    transition: 2s;
+}
+
+#namesaite{
+    background: rgb(215, 211, 211);
+    border: 2px solid rgb(17, 208, 204);
+    border-radius: 20px;
+    position: absolute;
+    left: 18%;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 80%;  
+}
+
+#main-icon-menu {
+    position: absolute;
+    top: 25%;
+    left: 28%;
+}
+
+
+
+
+/* style for js (1) to if for */
+#main-icon-menu.for-if-for{
+    position: absolute;
+    top: 1.8%;
+    left: 28%;
+}
+
+/* style for js (1) to if three */
+#main-icon-menu.for-if-three{
+    position: absolute;
+    top: 1.8%;
+    left: 7%;
+}
+
+/* style for js (1) to if tow */
+#main-icon-menu.for-if-tow{
+    position: absolute;
+    top: 25%;
+    left: 28%;
+}
+
+
+#navbarOne{
+    /* display: grid;  */
+    font-size: 1.5rem;
+    overflow: hidden;
+    display: none;
+}
+/* style for show icon navbar one for event (1) for if (for) */
+#navbarOne.showNavbarOne{
+    display: grid; 
+}
+#navbarOne.closeNavbarOne{
+    display: none; 
+}
+
+
+#navbarOne li {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+
+#Atags a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 1.75rem;
+    color: black;
+    text-align: center;
+    transition: 1.2s;
+}
+#Atags a:hover{
+    font-size: 2.8rem;
+    transition: 1.2s;
+}
+
+.IconNN{
+    font-size: 2rem;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.2s;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.IconNN:hover{
+   background: black;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.IconNNNN{
+    font-size: 2rem;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.2s;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+#navbarTow{
+    display: none;
+    /* display: grid;  */
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+
+#navbarTow li {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+#navbarTow.showNavbarTow {
+    display: grid;
+}
+#navbarTow.closeNavbarTow {
+    display: none;
+}
+
+
+
+/* search box */
+#search-form {
+    display: none;
+    overflow: hidden;
+}
+
+#search-form input {
+    margin-left: 25px;
+    border-radius: 10px;
+    border: 2px rgb(0, 0, 0) solid;
+    font-size: 1.1rem;
+    width: 68%;
+}
+
+/* for style js event (1) for (for) */
+#search-form.openSearch {
+    display: flex;
+    align-items: center;
+}
+
+#search-form.closeSearch {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:900px){
+    #namesaite {
+        display: none;
+    }
+}
